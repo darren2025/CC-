@@ -26,7 +26,7 @@
                 // 组装数据,写入
                 $str = $ip[1] . ':' . $port[1];
 
-                file_put_contents('./2.txt', $str . '@@@@', FILE_APPEND);
+                file_put_contents('./2.txt', $str, FILE_APPEND);
             }
         }
 
